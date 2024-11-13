@@ -1,0 +1,35 @@
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - japanize_matplotlib
+  - seaborn
+  - requests
+  - beautifulsoup4
+  - selenium
+  - tensorflow  # CUDA対応は別途セットアップが必要です
+  - tensorrt
+  - torch
+  - keras
+  - torchvision
+  - opencv-python
+  - opencv-contrib-python
+  - mahotas
+  - Pillow
+  - SimpleITK
+  - SimpleCV
+  - open3d
+  - shapely
+  - fiona
+  - geopandas
+  - scikit-image
+  - osmnx
+  - folium
+  - cython
+  - tqdm
+  - pip
+  - pip:
+      - tensorflow[and-cuda]  # CUDAサポート付きTensorFlowが必要な場合
+      - mecab-python3
