@@ -4,20 +4,16 @@ dependencies:
   - scipy
   - scikit-learn
   - matplotlib
-  - japanize_matplotlib
   - seaborn
   - plotly
   - requests
   - beautifulsoup4
   - selenium
   - tensorflow  # CUDA対応は別途セットアップが必要です
-  - tensorrt
-  - torch
   - keras
   - networkx
   - pygraphviz
   - graphviz
-  - lightly
   - lightgbm
   - xgboost
   - catboost
@@ -25,6 +21,10 @@ dependencies:
   - tqdm
   - pip
   - pip:
+      - japanize_matplotlib
       - tensorflow[and-cuda]  # CUDAサポート付きTensorFlowが必要な場合
       - optuna
       - mecab-python3
+      - lightly
+      - tensorrt
+      - torch
