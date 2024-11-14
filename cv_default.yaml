@@ -4,26 +4,26 @@ dependencies:
   - scipy
   - scikit-learn
   - matplotlib
-  - japanize_matplotlib
   - seaborn
   - requests
   - beautifulsoup4
   - selenium
   - tensorflow
-  - tensorrt
   - keras
   - torchvision
-  - opencv-python
-  - opencv-contrib-python
-  - mahotas
   - Pillow
-  - SimpleITK
-  - SimpleCV
-  - open3d
   - cython
   - tqdm
   - pip
   - pip:
       - torch
       - tensorflow[and-cuda]
+      - tensorrt
       - mecab-python3
+      - japanize_matplotlib
+      - SimpleITK
+      - SimpleCV
+      - open3d
+      - opencv-python
+      - opencv-contrib-python
+      - mahotas
