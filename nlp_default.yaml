@@ -3,9 +3,7 @@ dependencies:
   - pandas
   - scipy
   - scikit-learn
-  - pycaret
   - matplotlib
-  - japanize_matplotlib
   - mlxtend
   - seaborn
   - plotly
@@ -13,14 +11,11 @@ dependencies:
   - beautifulsoup4
   - selenium
   - gensim
-  - janome
   - nltk
   - spacy
   - lxml
   - umap-learn
   - tensorflow  # CUDA対応は別途セットアップが必要です
-  - tensorrt
-  - torch
   - keras
   - cython
   - tqdm
@@ -32,3 +27,7 @@ dependencies:
       - tensorflow[and-cuda]  # CUDAサポート付きTensorFlowが必要な場合
       - pytorch-transformers
       - sentencepiece
+      - japanize_matplotlib
+      - tensorrt
+      - torch
+      - janome
